@@ -1,0 +1,6 @@
+启动前显存: 2 MiB
+health=200
+GPU KV cache size: 221,184 tokens
+C=1   tok/s=75.86    ttft50=76.9    tpot50=12.66   itl99=15.97   acc=None
+C=4   tok/s=250.83   ttft50=219.5   tpot50=14.29   itl99=17.92   acc=None
+C=8   tok/s=437.86   ttft50=299.3   tpot50=15.91   itl99=19.42   acc=None

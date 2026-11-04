@@ -1,0 +1,24 @@
+########## DFLASH2 K=8 ##########
+启动前显存最大占用: 2 MiB
+K=8 就绪, KV=57,179 tokens
+C=1   tok/s=212.3    ttft50=83.2    tpot50=4.09    itl99=19.29   acc=0.391
+C=4   tok/s=535.36   ttft50=256.4   tpot50=5.5     itl99=24.66   acc=0.32
+C=8   tok/s=713.38   ttft50=256.2   tpot50=9.14    itl99=156.55  acc=0.342
+########## DFLASH2 K=12 ##########
+启动前显存最大占用: 2 MiB
+K=12 就绪, KV=44,210 tokens
+C=1   tok/s=203.31   ttft50=84.9    tpot50=4.29    itl99=20.58   acc=0.272
+C=4   tok/s=596.56   ttft50=206.4   tpot50=5.13    itl99=26.61   acc=0.291
+C=8   tok/s=643.96   ttft50=294.1   tpot50=8.14    itl99=188.75  acc=0.284
+########## DSPARK K=8 ##########
+启动前显存最大占用: 2 MiB
+K=8 就绪, KV=39,585 tokens
+C=1   tok/s=174.37   ttft50=84.4    tpot50=5.11    itl99=19.09   acc=0.292
+C=4   tok/s=508.95   ttft50=194.1   tpot50=5.64    itl99=74.1    acc=0.337
+C=8   tok/s=648.13   ttft50=328.6   tpot50=8.34    itl99=118.46  acc=0.313
+########## DSPARK K=4 ##########
+启动前显存最大占用: 2 MiB
+K=4 就绪, KV=64,593 tokens
+C=1   tok/s=169.54   ttft50=87.9    tpot50=5.25    itl99=19.85   acc=0.492
+C=4   tok/s=452.26   ttft50=236.8   tpot50=5.92    itl99=21.93   acc=0.498
+C=8   tok/s=785.08   ttft50=337.4   tpot50=7.83    itl99=117.28  acc=0.476

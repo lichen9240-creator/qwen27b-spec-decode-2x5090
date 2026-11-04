@@ -1,0 +1,18 @@
+########## DFLASH2 K=6 ##########
+启动前显存最大占用: 2 MiB
+K=6 就绪, KV=65,104 tokens
+C=1   tok/s=186.64   ttft50=83.5    tpot50=4.74    itl99=18.45   acc=0.416
+C=4   tok/s=489.87   ttft50=155.8   tpot50=5.49    itl99=72.94   acc=0.437
+C=8   tok/s=858.61   ttft50=292.9   tpot50=6.83    itl99=117.24  acc=0.434
+########## DSPARK K=6 ##########
+启动前显存最大占用: 2 MiB
+K=6 就绪, KV=50,075 tokens
+C=1   tok/s=173.61   ttft50=84.5    tpot50=5.14    itl99=19.25   acc=0.384
+C=4   tok/s=477.96   ttft50=255.8   tpot50=5.33    itl99=25.51   acc=0.401
+C=8   tok/s=775.93   ttft50=336.0   tpot50=7.88    itl99=118.99  acc=0.375
+########## DSPARK K=12 ##########
+启动前显存最大占用: 2 MiB
+K=12 就绪, KV=30,774 tokens
+C=1   tok/s=161.98   ttft50=77.9    tpot50=5.61    itl99=23.93   acc=0.213
+C=4   tok/s=447.69   ttft50=154.7   tpot50=7.57    itl99=77.92   acc=0.216
+C=8   tok/s=495.62   ttft50=789.1   tpot50=8.39    itl99=118.54  acc=0.221

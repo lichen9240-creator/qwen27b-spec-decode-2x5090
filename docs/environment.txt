@@ -1,0 +1,22 @@
+2026-10-30T07:44:47+08:00
+autodl-container-a6a040afb3-c39e4283
+name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 5090, 32607 MiB, 580.105.08
+NVIDIA GeForce RTX 5090, 32607 MiB, 580.105.08
+	[4mGPU0	GPU1	NIC0	NIC1	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+GPU0	 X 	SYS	NODE	NODE	0-51,104-155	0		N/A
+GPU1	SYS	 X 	SYS	SYS	52-103,156-207	1		N/A
+NIC0	NODE	SYS	 X 	PIX				
+NIC1	NODE	SYS	PIX	 X 				
+torch 2.13.0+cu130
+vllm 0.32.0
+tf 5.19.0
+cuda 13.0
+eagle_vllm 0.32.0rc1.dev283+eagle.5
+50
+               total        used        free      shared  buff/cache   available
+Mem:             754         184          60          15         509         549
+29460	/root/autodl-tmp/models/Qwen3.8-27B-FP8
+3671	/root/autodl-tmp/models/dflash2-27b
+3793	/root/autodl-tmp/models/dspark-27b
+5892	/root/autodl-tmp/models/eagle4-27b

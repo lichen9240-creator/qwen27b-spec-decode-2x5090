@@ -1,0 +1,27 @@
+# ---- 本地归档：历史版本、旧报告草稿、不发布的材料 ----
+_archive/
+repo/
+智研云*
+*.docx
+
+# ---- 原始数据集：用 scripts/fetch_datasets.py 拉取，不入库 ----
+data/raw/
+
+# ---- 压测运行产物（BENCH_ROOT 指向仓库根目录时出现）----
+logs/*.log
+metrics/
+configs/
+raw_data/
+results/summary_table.md
+*.part
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+_pydeps/
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+*.swp

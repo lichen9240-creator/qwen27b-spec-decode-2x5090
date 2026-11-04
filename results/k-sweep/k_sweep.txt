@@ -1,0 +1,13 @@
+C=1   tok/s=172.55   ttft50=83.6    tpot50=5.18    itl99=20.06   acc=0.486
+C=4   tok/s=433.99   ttft50=177.3   tpot50=6.77    itl99=110.43  acc=0.478
+C=8   tok/s=836.8    ttft50=337.1   tpot50=7.61    itl99=115.81  acc=0.507
+0, 29060 MiB
+1, 29060 MiB
+C=1   tok/s=0.0      ttft50=None    tpot50=None    itl99=None    acc=0.5
+C=4   tok/s=0.0      ttft50=None    tpot50=None    itl99=None    acc=None
+C=8   tok/s=0.0      ttft50=None    tpot50=None    itl99=None    acc=None
+0, 4 MiB
+1, 4 MiB
+K=12 启动失败:     raise RuntimeError( RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {} 
+K=8 启动失败:     raise RuntimeError( RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {} 
+K=4 启动失败:     raise RuntimeError( RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {} 
